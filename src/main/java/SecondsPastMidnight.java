@@ -8,10 +8,15 @@ class SecondsPastMidnight {
 
         //Reads int from user
         int number = scanner.nextInt();
+        int hours;
+        int min;
 
         //Your code goes here
+        hour = seconds / 3600;
+        min = seconds / 60;
+        System.out.println(hours + "  " + min)
 
-
+        
         // closing the scanner object
         scanner.close();
     }
