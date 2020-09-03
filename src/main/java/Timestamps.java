@@ -13,13 +13,16 @@ class Timestamps {
         int hours2 = scanner.nextInt();
         int minutes2 = scanner.nextInt();
         int seconds2 = scanner.nextInt();
-
+        int secInHour1, secInHour2;
 
         /*
          *  your code goes here
          */
+          int secInHour = hours * 3600
+          int secInHour2 = hours * 3600
 
-
+          int deltaHour = secInHour2 - secInHour1;
+          int totalSec
         // closing the scanner object
         scanner.close();
     }
