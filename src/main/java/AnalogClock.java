@@ -20,6 +20,7 @@ class AnalogClock {
           degreesPerHour = currentHourDegrees % 30;
           minutesPast = degreesPerHour * hourHandDegrees;
           currentMinuteDegrees = minutesPast * minuteHandDegrees;
+          // I apologize for the names being unspecific
 
           System.out.println(currentMinuteDegrees);
         // closing the scanner object
