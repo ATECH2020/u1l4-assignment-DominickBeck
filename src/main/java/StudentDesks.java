@@ -43,7 +43,7 @@ class StudentDesks {
             desksNeeded += numInClass3 / 2;
           }
 
-          System.out.print("The amount of desks needed is " + desksNeeded);
+          System.out.print(desksNeeded);
         // closing the scanner object
         scanner.close();
     }
