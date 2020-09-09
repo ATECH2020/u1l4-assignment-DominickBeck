@@ -7,40 +7,40 @@ class StudentDesks {
         Scanner scanner = new Scanner(System.in);
 
         //Reads ints from user
-        int numInClass1 = scanner.nextInt();
-        int numInClass2 = scanner.nextInt();
-        int numInClass3 = scanner.nextInt();
+        int classA = scanner.nextInt();
+        int classB = scanner.nextInt();
+        int classC = scanner.nextInt();
 
         /*
          *  your code goes here
          */
           int desksNeeded = 0;
 
-          if(numInClass1 % 2 == 1)
+          if(classA % 2 == 1)
           {
-            desksNeeded += (numInClass1 / 2) + 1;
+            desksNeeded += (classA / 2) + 1;
           }
           else
           {
-            desksNeeded += numInClass1 / 2;
+            desksNeeded += classA / 2;
           }
 
-          if(numInClass2 % 2 == 1)
+          if(classB % 2 == 1)
           {
-            desksNeeded += (numInClass2 / 2) + 1;
+            desksNeeded += (classB / 2) + 1;
           }
           else
           {
-            desksNeeded += numInClass2 / 2;
+            desksNeeded += classB / 2;
           }
 
-          if (numInClass3 % 2 == 1)
+          if (classC % 2 == 1)
           {
-            desksNeeded += (numInClass3 % 2) + 1;
+            desksNeeded += (classC / 2) + 1;
           }
           else
           {
-            desksNeeded += numInClass3 / 2;
+            desksNeeded += classC / 2;
           }
 
           System.out.print(desksNeeded);
