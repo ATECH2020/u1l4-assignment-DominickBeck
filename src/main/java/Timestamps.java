@@ -28,7 +28,7 @@ class Timestamps {
           
           int totalSec = deltaHour + deltaMin + deltaSec;
 
-          System.out.println(totalSec);
+          System.out.print(totalSec);
         // closing the scanner object
         scanner.close();
     }

@@ -7,14 +7,14 @@ class SecondsPastMidnight {
         Scanner scanner = new Scanner(System.in);
 
         //Reads int from user
-        int number = scanner.nextInt();
+        int number = 7500;
         int hours;
         int min;
 
         //Your code goes here
         hours = number / 3600;
         min = number / 60;
-        System.out.println(hours + "  " + min);
+        System.out.print(hours + "  " + min);
 
         
         // closing the scanner object

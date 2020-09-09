@@ -22,7 +22,7 @@ class AnalogClock {
           currentMinuteDegrees = minutesPast * minuteHandDegrees;
           // I apologize for the names being unspecific
 
-          System.out.println(currentMinuteDegrees);
+          System.out.print(currentMinuteDegrees);
         // closing the scanner object
         scanner.close();
     }
